@@ -1,0 +1,58 @@
+/* Fundal */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-image: url("backroung.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Overlay inchis */
+.overlay {
+    text-align: center;
+    padding: 120px 20px;
+    background: rgba(0,0,0,0.6);
+}
+
+/* Titlu */
+h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+/* Text */
+p {
+    font-size: 20px;
+}
+
+/* Butoane */
+.buttons {
+    margin-top: 40px;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 35px;
+    background: linear-gradient(45deg, purple, violet);
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px violet;
+}
+
+/* Sectiuni */
+section {
+    padding: 80px 20px;
+    text-align: center;
+    background: rgba(0,0,0,0.7);
+    margin-top: 10px;
+}
